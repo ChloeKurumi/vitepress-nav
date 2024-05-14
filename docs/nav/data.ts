@@ -11,6 +11,12 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: 'https://caniuse.com/img/favicon-128.png',
+        title: '百度',
+        desc: '百度',
+        link: 'https://baidu.com',
+      },
+      {
+        icon: 'https://caniuse.com/img/favicon-128.png',
         title: 'Can I use',
         desc: '前端 API 兼容性查询',
         link: 'https://caniuse.com',
