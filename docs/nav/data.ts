@@ -11,12 +11,6 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: 'https://caniuse.com/img/favicon-128.png',
-        title: '百度',
-        desc: '百度',
-        link: 'https://baidu.com',
-      },
-      {
-        icon: 'https://caniuse.com/img/favicon-128.png',
         title: 'Can I use',
         desc: '前端 API 兼容性查询',
         link: 'https://caniuse.com',
@@ -608,5 +602,45 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.pixiv.net',
       },
     ],
+  },
+  {
+    title: '前端在线编辑器',
+    items: [
+      {
+        icon: 'https://stackblitz.com/_astro/favicon.svg',
+        title: 'stackblitz',
+        desc: '是一个在线的开发环境,主要用于前端和全栈 Web 应用的开发',
+        link: 'https://stackblitz.com/',
+      },  
+      {
+        icon: 'https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png',
+        title: 'codepen',
+        desc: 'codepen 是一个便于分享的前端代码演示网址',
+        link: 'https://codepen.io/',
+      },  
+    ]
+  },
+  {
+    title: 'web3',
+    items: [
+      {
+        icon: 'https://remix.ethereum.org/assets/img/remixLogo.webp',
+        title: 'Remix IDE',
+        desc: 'web3在线开发环境',
+        link: 'https://remix.ethereum.org/#lang=zh',
+      },
+      {
+        icon: 'https://archive.trufflesuite.com/assets/logo.png',
+        title: 'Ganache',
+        desc: '搭建本地测试链的工具',
+        link: 'https://archive.trufflesuite.com/ganache/',
+      },
+      {
+        icon: 'https://asset.onekey-asset.com/card/_next/static/media/favicon-32x32.9bea6f4b.png',
+        title: 'onekey',
+        desc: 'OneKey 是储存、交易加密资产和 NFT,跟踪账户动态的最简单的解决方案',
+        link: 'https://card.onekey.so/',
+      }  
+    ]
   },
 ]
