@@ -618,6 +618,12 @@ export const NAV_DATA: NavData[] = [
         desc: 'codepen 是一个便于分享的前端代码演示网址',
         link: 'https://codepen.io/',
       },  
+      {
+        icon: 'https://cloudstudio.net/favicon.ico',
+        title: 'cloudstudio',
+        desc: 'cloudstudio 是腾讯出品的云开发环境',
+        link: 'https://cloudstudio.net/',
+      }
     ]
   },
   {
