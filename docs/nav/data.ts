@@ -649,4 +649,68 @@ export const NAV_DATA: NavData[] = [
       }  
     ]
   },
+  {
+    title: '游戏资源',
+    items: [
+      {
+        icon: '',
+        title: 'gamer520',
+        desc: '游戏下载站',
+        link: 'https://www.gamer520.com//',
+      },
+      {
+        icon: '',
+        title: 'thebyrut',
+        desc: '俄罗斯的游戏资源站',
+        link: 'https://thebyrut.org/',
+      },
+      {
+        icon: '',
+        title: 'nexusmods',
+        desc: 'mod资源站',
+        link: 'https://www.nexusmods.com/',
+      },
+      {
+        icon: '',
+        title: 'nexusmods',
+        desc: 'mod资源站',
+        link: 'https://www.nexusmods.com/',
+      },
+      {
+        icon: '',
+        title: '3dmgame-mod',
+        desc: 'mod资源站',
+        link: 'https://mod.3dmgame.com/',
+      },
+      {
+        icon: '',
+        title: 'nexusmods',
+        desc: 'mod资源站',
+        link: 'https://www.nexusmods.com/',
+      },
+      {
+        icon: '',
+        title: 'loverslab',
+        desc: 'mod资源站',
+        link: 'https://www.loverslab.com/',
+      },
+    ]
+  },
+  {
+    title: '网盘',
+    items: [
+      {
+        icon: '',
+        title: 'pixeldrain',
+        desc: '匿名网盘',
+        link: 'https://pixeldrain.com/',
+      },
+      {
+        icon: '',
+        title: 'gofile',
+        desc: '匿名网盘',
+        link: 'https://gofile.io/',
+      },
+    ]
+  }
 ]
