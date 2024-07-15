@@ -694,6 +694,12 @@ export const NAV_DATA: NavData[] = [
         desc: 'mod资源站',
         link: 'https://www.loverslab.com/',
       },
+      {
+        icon: '',
+        title: 'gamebanana',
+        desc: 'mod资源站,米哈游mod',
+        link: 'https://gamebanana.com/',
+      },
     ]
   },
   {
