@@ -717,12 +717,6 @@ export const NAV_DATA: NavData[] = [
         desc: '匿名网盘',
         link: 'https://gofile.io/',
       },
-      {
-        icon: '',
-        title: 'gofile',
-        desc: '测试git用',
-        link: 'https://gofile.io/',
-      },
     ]
   }
 ]
