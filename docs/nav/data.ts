@@ -763,12 +763,6 @@ export const NAV_DATA: NavData[] = [
         desc: '',
         link: 'https://www.iplaysoft.com/',
       },
-      {
-        icon: '',
-        title: '异次元软件',
-        desc: '',
-        link: 'https://www.iplaysoft.com/',
-      },
     ]
   }
 ]
