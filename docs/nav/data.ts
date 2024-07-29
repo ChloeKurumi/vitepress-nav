@@ -513,6 +513,29 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: '在线题库',
+    items: [
+      {
+        icon: '',
+        title: '面试鸭刷题神器',
+        desc: '在线面试题库',
+        link: 'https://www.mianshiya.com/',
+      },
+      {
+        icon: '',
+        title: '编程导航',
+        desc: '鱼皮的论坛',
+        link: 'https://www.code-nav.cn/',
+      },
+      {
+        icon: '',
+        title: 'sql之母',
+        desc: '在线sql刷题',
+        link: 'http://sqlmother.yupi.icu/',
+      },
+    ]
+  },
+  {
     title: '社区',
     items: [
       {
@@ -722,6 +745,29 @@ export const NAV_DATA: NavData[] = [
         title: 'gofile',
         desc: '匿名网盘',
         link: 'https://gofile.io/',
+      },
+    ]
+  },
+  {
+    title: '其他',
+    items: [
+      {
+        icon: '',
+        title: '克隆窝',
+        desc: '',
+        link: 'https://www.uy5.net/',
+      },
+      {
+        icon: '',
+        title: '小众软件',
+        desc: '',
+        link: 'https://www.appinn.com/',
+      },
+      {
+        icon: '',
+        title: '异次元软件',
+        desc: '',
+        link: 'https://www.iplaysoft.com/',
       },
     ]
   }
