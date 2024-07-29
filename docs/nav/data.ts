@@ -16,12 +16,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://caniuse.com',
       },
       {
-        icon: 'https://caniuse.com/img/favicon-128.png',
-        title: 'Can I use',
-        desc: '前端 API 兼容性查询',
-        link: 'https://caniuse.com',
-      },
-      {
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
         title: 'TinyPNG',
         desc: '在线图片压缩工具',
