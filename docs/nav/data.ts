@@ -64,6 +64,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Beautiful.ai（PPT）',
         link: 'https://www.beautiful.ai',
       },
+      {
+        icon: '',
+        title: 'Mojo',
+        desc: '人工智能开发语言',
+        link: 'https://www.modular.com/mojo',
+      },
     ],
   },
   {
@@ -218,6 +224,18 @@ export const NAV_DATA: NavData[] = [
         link: 'https://element-plus.org',
       },
       {
+        icon: '',
+        title: 'quasarchs',
+        desc: 'Quasar（发音为/kweɪ.zɑɹ/)是MIT许可的基于Vue.js的开源框架，编写代码一次并同时将其部署为网站、移动应用和/或Electron应用。',
+        link: 'http://www.quasarchs.com/',
+      },
+      {
+        icon: '',
+        title: 'Vuetify',
+        desc: 'Vuetify 是一个功能强大的 Vue 组件框架，从底层开始构建，易学易用。',
+        link: 'https://vuetifyjs.com/zh-Hans/',
+      },
+      {
         icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
         title: 'Ant Design Vue',
         desc: 'Ant Design 的 Vue 实现，开发和服务于企业级后台产品',
@@ -259,6 +277,12 @@ export const NAV_DATA: NavData[] = [
         desc: '一个兼容多浏览器的 JavaScript 框架',
         link: 'https://jquery.cuishifeng.cn',
       },
+      {
+        icon: '',
+        title: 'nue.js',
+        desc: 'Nue JS 是一个非常小的(压缩后 2.3kb)JavaScript 库,用于构建用户界面。',
+        link: 'https://nuejs.org/',
+      },
     ],
   },
   {
@@ -281,6 +305,12 @@ export const NAV_DATA: NavData[] = [
         title: 'TailwindCSS 中文网',
         desc: '一个功能类优先的 CSS 框架',
         link: 'https://www.tailwindcss.cn',
+      },
+      {
+        icon: '',
+        title: 'emotion',
+        desc: '是JS库中一种高效灵活的CSS。基于JS库中的许多其他CSS，它允许您使用字符串或对象样式快速设置应用程序样式。它具有可预测的组成，以避免CSS的特殊性问题。',
+        link: 'https://emotion.sh/docs/introduction',
       },
     ],
   },
@@ -429,6 +459,12 @@ export const NAV_DATA: NavData[] = [
         desc: 'Rust-based platform for the Web',
         link: 'https://swc.rs',
       },
+      {
+        icon: '',
+        title: 'bun',
+        desc: 'Bun 是一个现代的JavaScript运行环境',
+        link: 'https://bun.sh/',
+      },
     ],
   },
   {
@@ -533,7 +569,7 @@ export const NAV_DATA: NavData[] = [
         desc: '在线sql刷题',
         link: 'http://sqlmother.yupi.icu/',
       },
-    ]
+    ],
   },
   {
     title: '社区',
@@ -634,24 +670,42 @@ export const NAV_DATA: NavData[] = [
         title: 'stackblitz',
         desc: '是一个在线的开发环境,主要用于前端和全栈 Web 应用的开发',
         link: 'https://stackblitz.com/',
-      },  
+      },
       {
         icon: 'https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png',
         title: 'codepen',
         desc: 'codepen 是一个便于分享的前端代码演示网址',
         link: 'https://codepen.io/',
-      },  
+      },
       {
         icon: 'https://cloudstudio.net/favicon.ico',
         title: 'cloudstudio',
         desc: 'cloudstudio 是腾讯出品的云开发环境',
         link: 'https://cloudstudio.net/',
-      }
-    ]
+      },
+    ],
   },
   {
     title: 'web3',
     items: [
+      {
+        icon: '',
+        title: 'https://www.axxa.live/',
+        desc: '铭文导航',
+        link: 'https://www.axxa.live/',
+      },
+      {
+        icon: '',
+        title: 'theblockbeats',
+        desc: '新闻',
+        link: 'https://www.theblockbeats.info/',
+      },
+      {
+        icon: '',
+        title: 'odaily',
+        desc: '新闻',
+        link: 'https://www.odaily.news/',
+      },
       {
         icon: 'https://remix.ethereum.org/assets/img/remixLogo.webp',
         title: 'Remix IDE',
@@ -669,8 +723,20 @@ export const NAV_DATA: NavData[] = [
         title: 'onekey',
         desc: 'OneKey 是储存、交易加密资产和 NFT,跟踪账户动态的最简单的解决方案',
         link: 'https://card.onekey.so/',
-      }  
-    ]
+      },
+      {
+        icon: '',
+        title: 'misskey',
+        desc: 'Misskey是一个去中心化开源社交平台。',
+        link: 'https://misskey-hub.net/cn/',
+      },
+      {
+        icon: '',
+        title: 'Mastodon（长毛象）',
+        desc: '一个自由开源的去中心化的分布式微博客社交网络',
+        link: 'https://joinmastodon.org/zh',
+      },
+    ],
   },
   {
     title: '游戏资源',
@@ -723,7 +789,7 @@ export const NAV_DATA: NavData[] = [
         desc: 'mod资源站,米哈游mod',
         link: 'https://gamebanana.com/',
       },
-    ]
+    ],
   },
   {
     title: '网盘',
@@ -740,7 +806,7 @@ export const NAV_DATA: NavData[] = [
         desc: '匿名网盘',
         link: 'https://gofile.io/',
       },
-    ]
+    ],
   },
   {
     title: '其他',
@@ -763,6 +829,28 @@ export const NAV_DATA: NavData[] = [
         desc: '',
         link: 'https://www.iplaysoft.com/',
       },
-    ]
-  }
+    ],
+  },
+  {
+    title: '在线h游戏',
+    items: [
+      {
+        icon: '',
+        title: 'peachy-party',
+        desc: '',
+        link: 'https://www.peachy-party.cc/',
+      },
+    ],
+  },
+  {
+    title: '简历相关',
+    items: [
+      {
+        icon: '',
+        title: '老鱼简历',
+        desc: '',
+        link: 'https://www.laoyujianli.com/',
+      },
+    ],
+  },
 ]
