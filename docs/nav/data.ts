@@ -853,4 +853,15 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  {
+    title: '电子书资源',
+    items: [
+      {
+        icon: '',
+        title: 'z-library',
+        desc: '',
+        link: 'https://z-library.sk/',
+      },
+    ],
+  },
 ]
